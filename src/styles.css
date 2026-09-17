@@ -157,11 +157,13 @@ button:disabled {
   border-radius: var(--radius);
   padding: clamp(28px, 5vw, 58px);
   display: grid;
-  grid-template-columns: 1.4fr .8fr;
-  gap: clamp(28px, 6vw, 76px);
-  align-items: end;
+  grid-template-columns: 1fr;
   position: relative;
   overflow: hidden;
+}
+
+.hero-copy {
+  max-width: 850px;
 }
 
 .hero::after {
