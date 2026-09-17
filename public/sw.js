@@ -1,4 +1,4 @@
-const CACHE = "package-pulse-v1";
+const CACHE = "package-pulse-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
