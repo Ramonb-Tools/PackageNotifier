@@ -13,7 +13,7 @@ window.PACKAGE_PULSE_CONFIG = {
   scopes: ["Mail.ReadWrite", "User.Read"],
 
   message: {
-    subject: "You Have Mail",
+    subject: "You Have a Package",
     bodyHtml:
       "<p>Hello,</p>" +
       "<p>You have received a package, please pick it up at your earliest convenience.</p>"
